@@ -127,3 +127,30 @@ input {
 input::placeholder {
 	color: #aaa;
 }
+
+@media (max-width: 650px) {
+	.container { 
+		width: 75vw;
+		height: 75vh;
+	 }
+}
+
+@media (max-width: 400px) {
+	h1 { 
+		font-size: 4rem;
+	 }
+}
+
+@media (max-width: 300px) {
+	.heading {
+		text-align: center;
+	}
+	.btn {
+		width : 12rem;
+		height : 3rem;
+		text-align: center;
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		padding : 0.5rem 0;
+	}
+}

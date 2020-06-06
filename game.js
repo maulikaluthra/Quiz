@@ -64,8 +64,9 @@ startGame = () =>{
 	score = 0;
 	availableQuestions = [ ...questions];
 	getNewQuestion();
-	loader.classList.add("hidden");
+	
 	game.classList.remove("hidden");
+	loader.classList.add("hidden");
   
 };
 
