@@ -67,7 +67,7 @@
 	width : 0%;
 }
 
-.loader {
+#loader {
 	border :  0.8rem solid white;
 	border-radius: 50%;
 	border-top : 0.8rem solid #40E0D0;
@@ -83,4 +83,13 @@
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+@media (max-width: 500px) {
+	.question {
+		font-size: 15px;
+	}
+
+	.choice-container { 
+		height : 3.5rem; }
 }
